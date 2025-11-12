@@ -249,11 +249,11 @@
           <div class="inputs">
             <div>
               <label>Check-in</label>
-              <input type="date" />
+              <input type="date" id="checkin" />
             </div>
             <div>
               <label>Check-out</label>
-              <input type="date" />
+              <input type="date" id="checkout" />
             </div>
             <div class="col-span">
               <label>Guests</label>
@@ -273,7 +273,7 @@
             <div>Service fee: $35</div>
             <div>Taxes: $28</div>
             <hr />
-            <div><strong>Total before taxes:</strong> $284</div>
+            <div><strong id="total">Total before taxes:</strong> $284</div>
           </div>
           <div class="notice">You won’t be charged yet</div>
         </div>
@@ -285,5 +285,8 @@
     <div>© 2025 Pine and Peak Properties · Sandpoint, ID</div>
     <div>House rules · Safety & property · Cancellation policy</div>
   </footer>
+
+  <script src="totalprice.js"></script>
 </body>
 </html>
+
