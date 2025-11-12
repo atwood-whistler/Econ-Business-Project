@@ -15,3 +15,80 @@
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+    }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 20px; max-width: 1080px; margin: 0 auto;
+    }
+    .brand { font-weight: 700; color: var(--accent); }
+    .menu {
+      background: #fafafa;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .menu ul {
+      list-style: none; margin: 0; padding: 0;
+      display: flex; gap: 20px; justify-content: center;
+    }
+    .menu li { padding: 12px 0; }
+    .menu a {
+      text-decoration: none; color: var(--text); font-weight: 500;
+    }
+    .menu a:hover { color: var(--accent); }
+    .container {
+      max-width: 800px; margin: 0 auto; padding: 30px 20px;
+    }
+    h1 { font-size: 28px; margin-bottom: 20px; }
+    p { line-height: 1.6; margin-bottom: 16px; }
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 40px; padding: 20px; text-align: center; color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">StayFinder</div>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li> <!-- future page -->
+        <li><a href="#">Option 1</a></li>
+        <li><a href="#">Option 2</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>About StayFinder</h1>
+    <p>
+      StayFinder was created with one simple idea: travel should feel personal, inspiring, and effortless. 
+      We believe that where you stay shapes your entire journey, so we focus on connecting travelers with 
+      unique spaces that spark joy — whether it’s a rustic cabin by the lake, a sleek city loft, or a 
+      beachfront bungalow.
+    </p>
+    <p>
+      Our mission is to make every trip memorable by offering accommodations that feel like home, while 
+      still giving you the thrill of discovery. We’re passionate about helping people explore new places, 
+      meet new communities, and create stories worth sharing. 
+    </p>
+    <p>
+      Founded in 2025, StayFinder is built by travelers, for travelers. We’re constantly improving, adding 
+      new listings, and listening to feedback so we can make your next adventure even better. Whether you’re 
+      planning a weekend getaway or a month-long escape, StayFinder is here to help you find the perfect stay.
+    </p>
+  </div>
+
+  <footer>
+    © 2025 StayFinder · Built with love for travelers everywhere
+  </footer>
+</body>
+</html>
