@@ -138,7 +138,152 @@
       <span>· Superhost</span>
     </div>
 
+    <!-- Gallery -->
     <div class="gallery">
       <img class="big" src="https://images.unsplash.com/photo-1600585154340-1eac1263a8be?q=80&w=1200&auto=format&fit=crop" alt="Main photo" />
       <img src="https://images.unsplash.com/photo-1613977257532-0ade22b16787?q=80&w=600&auto=format&fit=crop" alt="Photo 2" />
-      <img src="https://images.unsplash.com/photo-1519710164239-da
+      <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=600&auto=format&fit=crop" alt="Photo 3" />
+      <img src="https://images.unsplash.com/photo-1598300056390-0e34b9b2d904?q=80&w=600&auto=format&fit=crop" alt="Photo 4" />
+    </div>
+
+    <!-- Main content + Booking card -->
+    <div class="content">
+      <main>
+        <div class="section">
+          <div class="host">
+            <span class="avatar"></span>
+            <div>
+              <div><strong>Hosted by:</strong> Taylor</div>
+              <div class="features">
+                <span>Entire cabin</span>
+                <span>· 4 guests</span>
+                <span>· 2 bedrooms</span>
+                <span>· 3 beds</span>
+                <span>· 1.5 baths</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>About this place</h3>
+          <p>
+            Wake up to lake views and coffee on the deck. This modern cabin features a private hot tub,
+            a wood stove, fast Wi‑Fi, and floor‑to‑ceiling windows. Minutes to downtown Sandpoint and
+            Schweitzer Mountain, perfect for a cozy getaway.
+          </p>
+          <ul>
+            <li>Lake access with shared dock</li>
+            <li>Dedicated workspace with lake view</li>
+            <li>Self check-in with smart lock</li>
+            <li>Pet‑friendly with prior approval</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>What this place offers</h3>
+          <div class="amenities-grid">
+            <div class="amenity">🛁 Hot tub</div>
+            <div class="amenity">🔥 Wood stove</div>
+            <div class="amenity">📶 Fast Wi‑Fi</div>
+            <div class="amenity">🍳 Kitchen</div>
+            <div class="amenity">🚗 Free parking</div>
+            <div class="amenity">🌲 Lake view</div>
+            <div class="amenity">🧺 Washer</div>
+            <div class="amenity">❄️ Air conditioning</div>
+          </div>
+        </div>
+
+        <div class="section reviews">
+          <h3>Reviews</h3>
+          <div class="rating-breakdown">
+            <div>
+              <div>Cleanliness</div>
+              <div class="bar"><span style="width:95%"></span></div>
+            </div>
+            <div>
+              <div>Communication</div>
+              <div class="bar"><span style="width:98%"></span></div>
+            </div>
+            <div>
+              <div>Location</div>
+              <div class="bar"><span style="width:96%"></span></div>
+            </div>
+            <div>
+              <div>Value</div>
+              <div class="bar"><span style="width:92%"></span></div>
+            </div>
+          </div>
+
+          <div class="review">
+            <span class="avatar"></span>
+            <div>
+              <strong>Alex</strong> · October 2025
+              <p>Gorgeous views and a perfect soak in the hot tub after hiking. Host was responsive and the cabin felt spotless.</p>
+            </div>
+          </div>
+          <div class="review">
+            <span class="avatar"></span>
+            <div>
+              <strong>Maya</strong> · September 2025
+              <p>Loved the deck at sunrise. Easy check‑in and the kitchen had everything we needed for a weekend.</p>
+            </div>
+          </div>
+          <button class="btn" onclick="alert('Show all reviews…')">Show all reviews</button>
+        </div>
+
+        <div class="section">
+          <h3>Where you’ll be</h3>
+          <p>Sandpoint, Idaho — Lake Pend Oreille shoreline, quiet neighborhood with quick access to downtown and mountain trails.</p>
+          <div class="map">Map placeholder</div>
+        </div>
+      </main>
+
+      <aside>
+        <div class="booking-card">
+          <div class="price">
+            <span class="amount">$189</span><span class="muted">night</span>
+          </div>
+          <div class="subline"><span class="star">★ 4.92</span><span>· 128 reviews</span></div>
+
+          <div class="inputs">
+            <div>
+              <label>Check-in</label>
+              <input type="date" />
+            </div>
+            <div>
+              <label>Check-out</label>
+              <input type="date" />
+            </div>
+            <div class="col-span">
+              <label>Guests</label>
+              <select>
+                <option>1 guest</option>
+                <option>2 guests</option>
+                <option>3 guests</option>
+                <option>4 guests</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="btn" onclick="alert('Request to book submitted!')">Reserve</button>
+
+          <div class="fees">
+            <div>Cleaning fee: $60</div>
+            <div>Service fee: $35</div>
+            <div>Taxes: $28</div>
+            <hr />
+            <div><strong>Total before taxes:</strong> $284</div>
+          </div>
+          <div class="notice">You won’t be charged yet</div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="container">
+    <div>© 2025 StayFinder · Sandpoint, ID</div>
+    <div>House rules · Safety & property · Cancellation policy</div>
+  </footer>
+</body>
+</html>
