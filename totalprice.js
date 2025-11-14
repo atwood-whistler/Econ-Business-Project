@@ -23,8 +23,8 @@ function updateTotal() {
     taxesDiv.textContent = `Taxes: $${taxes}`;
     totalDiv.textContent = `Total: $${total}`;
   } else {
-    taxesDiv.textContent = "Taxes: $28"; // default
-    totalDiv.textContent = "Total before taxes: $284"; // default
+    taxesDiv.textContent = "Taxes: $0"; // default
+    totalDiv.textContent = "Total before taxes: $0"; // default
   }
 }
 
