@@ -1,6 +1,6 @@
 // totalprice.js
 
-const nightlyRate = 180;
+const nightlyRate = 240;
 const cleaningFee = 60;
 const serviceFee = 35;
 const taxRate = 0.08; // 8% tax, adjust as needed
