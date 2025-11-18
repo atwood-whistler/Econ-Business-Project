@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Additional Images - Pine and Peak Properties</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #222222;
+      --muted: #717171;
+      --accent: #ff385c;
+      --border: #e6e6e6;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+    }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 20px; max-width: 1080px; margin: 0 auto;
+    }
+    .brand { font-weight: 700; color: var(--accent); }
+    .menu {
+      background: #fafafa;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .menu ul {
+      list-style: none; margin: 0; padding: 0;
+      display: flex; gap: 20px; justify-content: center;
+    }
+    .menu li { padding: 12px 0; }
+    .menu a {
+      text-decoration: none; color: var(--text); font-weight: 500;
+    }
+    .menu a:hover { color: var(--accent); }
+    .container {
+      max-width: 1080px; margin: 0 auto; padding: 30px 20px;
+    }
+    h1 { font-size: 28px; margin-bottom: 20px; text-align: center; }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .image-card {
+      background: #f9f9f9;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+    .image-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      background: #ddd;
+    }
+    .image-card p {
+      margin: 10px 0 0;
+      font-size: 14px;
+      color: var(--muted);
+      text-align: center;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 40px; padding: 20px; text-align: center; color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">Pine and Peak Properties</div>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="additionalimages.html">Additional Images</a></li>
+        <li><a href="#">Option 1</a></li>
+        <li><a href="#">Option 2</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Additional Images</h1>
+    <div class="image-grid">
+      <div class="image-card">
+        <img src="images/front.JPEG" alt="Placeholder image" />
+        <p>Image caption</p>
+      </div>
+      <div class="image-card">
+        <img src="images/kitchen.JPEG" alt="Placeholder image" />
+        <p>Image caption</p>
+      </div>
+      <div class="image-card">
+        <img src="images/livingRoom.JPEG" alt="Placeholder image" />
+        <p>Image caption</p>
+      </div>
+      <div class="image-card">
+        <img src="images/bedroom.JPEG" alt="Placeholder image" />
+        <p>Image caption</p>
+      </div>
+      <!-- Repeat more .image-card blocks as needed -->
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Pine and Peak Properties · Kingston, ID
+  </footer>
+</body>
+</html>
